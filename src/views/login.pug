@@ -1,0 +1,30 @@
+meta(charset="utf-8")
+meta(name="viewport", content="width=device-width,initial-scale=1")
+link(rel="stylesheet", href="/publico/css/albumcss.css")
+link(rel="stylesheet", href="/bscss/bootstrap.min.css")
+script(src="/jquery/jquery.js")
+script(src="/bsjs/bootstrap.min.js")
+script(src="/popperjs/popper.min.js")
+script(src="/publico/js/form-album.js")
+script(src="/publico/js/form-validation.js")
+script(src="/publico/js/login.js")
+title Login
+#header
+body 
+  .container
+    br
+    h2 Login
+    hr
+  form
+  .login
+    div
+      .mb-3
+      label(for="login")
+      input#login.form-control(type="text", name="email", placeholder="Email")
+    div
+      .mb-3
+      label(for="senha")
+      input#senha.form-control(type="password", name="senha", placeholder="Senha")
+    .div-botao
+      a.btn.btn-primary(type="submit", name="enviar" id="enviar" value="Logar" href='albuns') Logar
+#footer

@@ -1,0 +1,70 @@
+meta(charset="utf-8")
+meta(name="viewport", content="width=device-width,initial-scale=1")
+link(rel="stylesheet", href="/publico/css/albumcss.css")
+link(rel="stylesheet", href="/bscss/bootstrap.min.css")
+script(src="/jquery/jquery.js")
+script(src="/bsjs/bootstrap.min.js")
+script(src="/popperjs/popper.min.js")
+script(src="/publico/js/form-album.js")
+script(src="/publico/js/form-validation.js")
+title Relatório
+body 
+#header
+br
+h2 Relatorio dos albuns
+   .container
+   .relatorio
+    .row
+      .col-md-6
+       table.table
+                thead.table-warning
+                 each Albuns in todosOsAlbuns
+                    tr
+                        th(colspan='2')
+                            img(src='/uploads/'+Albuns.nome_foto, width='600', height='350') 
+                    tr 
+                        th(colspan='2') Informações do Album #{Albuns.id}         
+                    tr 
+                        th Nome
+                        td #{Albuns.nome}
+                    tr 
+                        th CPF 
+                        td #{Albuns.cpf}
+                    tr 
+                        th Telefone 
+                        td #{Albuns.tel}
+                    tr
+                        th Email 
+                        td #{Albuns.email}
+                    tr 
+                        th Estado 
+                        td #{Albuns.estado}
+                    tr
+                        th Cidade 
+                        td #{Albuns.cidade}
+                    tr 
+                        th Data de Nascimento 
+                        td #{Albuns.data_nascimento}
+                    tr 
+                        th Titulo da Foto 
+                        td #{Albuns.titulo_foto}
+                    tr 
+                        th Nome do Fotografo(a)
+                        td #{Albuns.nome_fotografo} 
+                    tr
+                        th Nome da Foto 
+                        td #{Albuns.nome_foto} 
+                    tr
+                        th Nome do Responsavel 
+                        td #{Albuns.nome_responsavel}
+                    tr
+                        th CPF do Responsavel 
+                        td #{Albuns.cpf_responsavel}
+                    tr 
+                        th Data de Autorização 
+                        td #{Albuns.data_autorizacao}
+
+   
+          
+
+#footer

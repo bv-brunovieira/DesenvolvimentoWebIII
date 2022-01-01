@@ -1,0 +1,255 @@
+meta(charset="utf-8")
+meta(name="viewport", content="width=device-width,initial-scale=1")
+link(rel="stylesheet", href="/publico/css/albumcss.css")
+link(rel="stylesheet", href="/bscss/bootstrap.min.css")
+script(src="/jquery/jquery.js")
+script(src="/bsjs/bootstrap.min.js")
+script(src="/popperjs/popper.min.js")
+script(src="/publico/js/form-album.js")
+script(src="/publico/js/form-validation.js")
+title Login
+#header
+body
+  .container
+  main
+    .container
+      #myCarousel.carousel.slide(data-bs-ride='carousel')
+        .carousel-indicators
+          button.active(type='button', data-bs-target='#myCarousel', data-bs-slide-to='0', aria-current='true', aria-label='Slide 1')
+          button(type='button', data-bs-target='#myCarousel', data-bs-slide-to='1', aria-label='Slide 2')
+          button(type='button', data-bs-target='#myCarousel', data-bs-slide-to='2', aria-label='Slide 3')
+        .carousel-inner
+          .carousel-item.active
+            img(src='/img/carousel1.jpg')
+            .container
+              .carousel-caption.text-start
+                h1 Personalidades Negras.
+                p A beleza negra resiste.
+                p
+                  a.btn.btn-lg.btn-primary(href='album') Crie seu album
+          .carousel-item
+            img(src='/img/carousel2.jpg')
+            .container
+              .carousel-caption
+                h1 Personalidades Negras.
+                p A beleza negra resiste.
+                p
+                  a.btn.btn-lg.btn-primary(href='album') Crie seu album
+          .carousel-item
+            img(src='/img/carousel3.jpg')
+            .container
+              .carousel-caption.text-end
+                h1 Personalidades Negras.
+                p A beleza negra resiste.
+                p
+                  a.btn.btn-lg.btn-primary(href='album') Crie seu album
+        button.carousel-control-prev(type='button', data-bs-target='#myCarousel', data-bs-slide='prev')
+          span.carousel-control-prev-icon(aria-hidden='true')
+          span.visually-hidden Voltar
+        button.carousel-control-next(type='button', data-bs-target='#myCarousel', data-bs-slide='next')
+          span.carousel-control-next-icon(aria-hidden='true')
+          span.visually-hidden Proximo
+    // hr.featurette-divider
+  .container
+    .row.featurette
+      .col-md-7
+        h1.featurette-heading Hist&oacute;ria
+        p.lead(align='justify')
+          | O projeto &ldquo;Negritude em Debate MS&rdquo; (Cpaq/UFMS &ndash;
+          | Neabi/IFMS/CG) tem objetivo contribuir para reflex&atilde;o, para valoriza&ccedil;&atilde;o da
+          | cultura negra no Mato Grosso do Sul, assim como, contribuir para o desenvolvimento da
+          | tem&aacute;tica &quot;Hist&oacute;ria da &Aacute;frica e Cultura Afro-brasileira&quot; nas escolas
+          | da rede b&aacute;sica de ensino, nos Institutos Federais do Mato Grosso do Sul (IFMS) e na
+          | Universidade Federal do Mato Grosso do Sul (UFMS). Para isso, elaborar material audiovisual para ser
+          | trabalhado nas institui&ccedil;&otilde;es p&uacute;blicas (rede b&aacute;sica de ensino, IFMS e
+          | UFMS); Dialogar com os professores por meio de oficinas/cursos/palestras e outras atividades que
+          | estejam ligadas ao tema da ra&ccedil;a e do g&ecirc;nero. Dentre elas, a mostra fotogr&aacute;fica
+          | intitulada &ldquo;Beleza Negra Resiste&rdquo;, oficina de pintura org&acirc;nica e Oficina
+          | pedag&oacute;gica. O foco do material audiovisual &eacute; de trabalhar com as Comunidades
+          | Quilombolas de Mato Grosso do Sul, entre elas, Comunidade Negra Rural Quilombola da Furna dos
+          | Baianos (Aquidauana/MS), a Comunidade Remanescente de Quilombos Tia Eva (CG) e a Furnas do
+          | Dion&iacute;sio (CG).
+      .col-md-5
+        h4.featurette-heading
+        img(src='/img/logo2.png', width='500', height='500')
+    hr.featurette-divider
+    .row.featurette
+      .col-md-12
+        h1.featurette-heading Acompanhe algumas a&ccedil;&otilde;es do Negritude em Debate
+        br
+      .col-md-7
+        h4 Mostra Fotogr&aacute;fica Beleza Negra Resiste 2020
+        p.lead(align='justify')
+          | O projeto tem como objetivo visibilizar corporeidades outras que se
+          | apresentam fora do padr&atilde;o est&eacute;tico europeu, como a beleza, a cultura e a
+          | ancestralidade negra existentes no Mato Grosso do Sul e que foram historicamente apagadas.
+          | Permitindo com isso que esses sujeitos sociais, negras e negros, se auto identifiquem e consigam
+          | romper com as estruturas col&ocirc;nias e racistas que persistem ainda no s&eacute;culo XXI.
+      .col-md-5
+        iframe(width='460', height='315', src='https://www.youtube.com/embed/SBe5tBAVY_Y', title='YouTube video player', frameborder='0', allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
+        p  
+    .row.featurette
+      .col-md-7
+        br
+        h4 Palestras, oficinas e capacita&ccedil;&atilde;o antirracista 
+        p.lead(align='justify')
+          | O projeto tem como objetivo visibilizar corporeidades outras que se
+          | apresentam fora do padr&atilde;o est&eacute;tico europeu, como a beleza, a cultura e a
+          | ancestralidade negra existentes no Mato Grosso do Sul e que foram historicamente apagadas.
+          | Permitindo com isso que esses sujeitos sociais, negras e negros, se auto identifiquem e consigam
+          | romper com as estruturas col&ocirc;nias e racistas que persistem ainda no s&eacute;culo XXI.
+      .col-md-5
+        iframe(width='460', height='315', src='https://www.youtube.com/embed/GrmVEbrWBic', title='YouTube video player', frameborder='0', allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
+        p
+    .row.featurette
+      .col-md-7
+        br
+        h4 Semana da Consci&ecirc;ncia Negra 
+        p.lead(align='justify')
+          | As atividades propostas na Semana da Consci&ecirc;ncia Negra objetivam
+          | evidenciar a cultura, a hist&oacute;ria e sobretudo as tantas lutas do povo negro. O evento traz
+          | rodas de conversa, palestras, teatro, m&uacute;sica, dan&ccedil;a e principalmente, agregado a tudo
+          | isso, informa&ccedil;&atilde;o e conscientiza&ccedil;&atilde;o.
+      .col-md-5
+        img(src='/img/semana.jpg', width='460', height='315', href='https://www.facebook.com/media/set/?vanity=negritudeemdebatems&set=a.398413992012099')
+    hr.featurette-divider
+    .row.featurette
+      .col-md-7
+        h2.featurette-heading Conhe&ccedil;a a nossa equipe
+        br
+      .container
+    .row
+      .col-md-4
+        p.lead(align='justify')
+          b F&aacute;bio Luiz Faria da Silva
+        img(src='/img/fabio.png', width='300', height='200')
+        p.lead(align='justify')
+          | Possui gradua&ccedil;&atilde;o em Engenharia da
+          | Computa&ccedil;&atilde;o, especializa&ccedil;&atilde;o em Doc&ecirc;ncia e Licenciatura
+          | Pedag&oacute;gica em Hist&oacute;ria. Atualmente &eacute; professor efetivo no IFMS na &aacute;rea
+          | de Desenvolvimento/Desenvolvimento Web e membro do NEABI. &Eacute; ativista em movimentos
+          | sociais e amante das artes, em especial, a m&uacute;sica.
+      .col-md-4
+        p.lead(align='justify')
+          b  Ana Paula Archanjo Batarce
+        img(src='/img/ana.jpeg', width='300', height='200')
+        p.lead(align='justify')
+          | Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          | sed do eiusmod tempor incididunt ut labore et dolore magna
+          | aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          | ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          | Duis aute irure dolor in reprehenderit in voluptate velit
+          | esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          | occaecat cupidatat non proident, sunt in culpa
+          | qui officia deserunt mollit anim id est laborum..
+      .col-md-4
+        p.lead(align='justify')
+          b Diego Aparecido Cafola
+        img(src='/img/cafola.jpg', width='300', height='200')
+        p.lead(align='justify')
+          | Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          | sed do eiusmod tempor incididunt ut labore et dolore magna
+          | aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          | ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          | Duis aute irure dolor in reprehenderit in voluptate velit
+          | esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          | occaecat cupidatat non proident, sunt in culpa
+          | qui officia deserunt mollit anim id est laborum..
+        br
+        .container
+    .row
+      .col-md-4
+        p.lead(align='justify')
+          b Thamires
+        img(src='/img/thamires.jpeg', width='300', height='200')
+        p.lead(align='justify')
+          | Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          | sed do eiusmod tempor incididunt ut labore et dolore magna
+          | aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          | ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          | Duis aute irure dolor in reprehenderit in voluptate velit
+          | esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          | occaecat cupidatat non proident, sunt in culpa
+          | qui officia deserunt mollit anim id est laborum..
+      .col-md-4
+        p.lead(align='justify')
+          b  Francisco Givanildo dos Santos
+        img(src='/img/francisco.jpeg', width='300', height='200')
+        p.lead(align='justify')
+          | Professor da Educa&ccedil;&atilde;o B&aacute;sica (Estadual e
+          | Municipal),
+          | h&aacute; 27 anos. Formado em Licenciatura Plena em Hist&oacute;ria,
+          | Especializa&ccedil;&atilde;o em Hist&oacute;ria da Am&eacute;rica Latina e Mestrado
+          | em Educa&ccedil;&atilde;o. Representante sindical de base e atuante
+          | na luta da categoria pela valoriza&ccedil;&atilde;o profissional e
+          | militante dos movimentos sociais, em especial na pauta
+          | dos direitos humanos.
+      .col-md-4
+        p.lead(align='justify')
+          b Alessandro Riquelme
+        img(src='/img/semfoto.jpg', width='300', height='200')
+        p.lead(align='justify')
+          | Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          | sed do eiusmod tempor incididunt ut labore et dolore magna
+          | aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          | ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          | Duis aute irure dolor in reprehenderit in voluptate velit
+          | esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          | occaecat cupidatat non proident, sunt in culpa
+          | qui officia deserunt mollit anim id est laborum..
+        br
+        .container
+    .row
+      .col-md-4
+        p.lead(align='justify')
+          b Jussara
+        img(src='/img/semfoto.jpg', width='300', height='200')
+        p.lead(align='justify')
+          | Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          | sed do eiusmod tempor incididunt ut labore et dolore magna
+          | aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          | ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          | Duis aute irure dolor in reprehenderit in voluptate velit
+          | esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          | occaecat cupidatat non proident, sunt in culpa
+          | qui officia deserunt mollit anim id est laborum..
+      .col-md-4
+        p.lead(align='justify')
+          b  Roberto
+        img(src='/img/roberto.jpeg', width='300', height='200')
+        p.lead(align='justify')
+          | Meu nome &eacute; Roberto Pereira de Freitas Neto,
+          | mas todo mundo me chama s&oacute; de Neto. Tenho 15 anos e
+          | estou cursando Inform&aacute;tica l&aacute; no IFMS. Sou bolsista do
+          | projeto Negritude em Debate, no qual fa&ccedil;o parte da equipe
+          | de produ&ccedil;&atilde;o audiovisual. Tamb&eacute;m fa&ccedil;o pesquisas sobre os
+          | quilombolas aqui do MS e ajudo o projeto no que puder
+          | aqui =).
+      .col-md-4
+        p.lead(align='justify')
+          b Sabrina
+        img(src='/img/semfoto.jpg', width='300', height='200')
+        p.lead(align='justify')
+          | Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          | sed do eiusmod tempor incididunt ut labore et dolore magna
+          | aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          | ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          | Duis aute irure dolor in reprehenderit in voluptate velit
+          | esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          | occaecat cupidatat non proident, sunt in culpa
+          | qui officia deserunt mollit anim id est laborum..
+    hr.featurette-divider
+    .container.marketing
+      h4(style='text-align: center; padding: auto;') Desenvolvedores
+      p  
+      .row
+        .col-lg-4
+          img.bd-placeholder-img.rounded-circle(src='/img/dev1.jpg', width='70', height='70', preserveaspectratio='xMidYMid slice')
+          h4 Luiz Ricardo
+        .col-lg-4
+          img.bd-placeholder-img.rounded-circle(src='/img/dev2.jpg', width='70', height='70', preserveaspectratio='xMidYMid slice')
+          h4 Bruno Vieira
+        .col-lg-4
+          img.bd-placeholder-img.rounded-circle(src='/img/dev3.jpg', width='70', height='70', preserveaspectratio='xMidYMid slice')
+          h4 F&aacute;bio Luiz
+  #footer

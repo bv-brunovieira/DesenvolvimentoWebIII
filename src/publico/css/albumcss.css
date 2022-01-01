@@ -1,0 +1,43 @@
+body {
+  background-image: url(/img/bck3.jpg);
+
+}
+p, h1,h2,h3,h4,hr {
+  color: white;
+}
+h2 {
+  text-align: center;
+}
+
+.div-tab {
+  padding: 10px;
+}
+
+.div-botao {
+  padding-top: 10px;
+}
+
+.div-autorizacao {
+  padding-top: 10px;
+}
+
+.texto {
+  text-align: justify;
+}
+.msg-erro{ 
+  color: red; 
+}
+.login{
+  width: 650;
+  height: 300;
+  margin: auto;
+  padding: 5%;
+}
+.header {
+  width: 100%;
+  margin-top: 0%;
+}
+.relatorio {
+  margin: auto;
+  display: inline-flex;
+}
